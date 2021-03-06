@@ -11,6 +11,8 @@ const app = Vue.createApp({
     const roadimg = computed(() => {
           return game.value < 2? 'url(./assets/road.gif)' : 'url(./assets/road.jpg)'
         })
-   
+    return {
+      roadimg,
+    }
   }
-}
+}).mount('#app')
