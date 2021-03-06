@@ -1,11 +1,5 @@
-body{
-	font-family: "Noto Sans","Microsoft JhengHei";
-  font-weight:600;
-  font-size:18px;
-}
-.box{
-  width: 200px;
-  height: 200px;
-  background: #ecd6c7;
-  margin: 0 auto;
+body {
+  background-image: url('./image/road.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
