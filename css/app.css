@@ -1,5 +1,17 @@
-body {
-  background-image: url('./image/road.gif');
-  background-repeat: no-repeat;
-  background-size: cover;
+#app {
+  width: 100vw;
+  height: 100%;
+  overflow: hidden;
 }
+
+#bg {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
